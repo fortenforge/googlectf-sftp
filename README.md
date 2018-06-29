@@ -7,7 +7,7 @@
 
 TL;DR: pass a password check, obtain a write-what-where and read-what-where using overlapping malloc chunks, leak a libc pointer, and overwrite a GOT table entry to pop a shell.
 
-You can read our full writeup [here](https://hackmd.io/s/SkUhP4fGX)
+You can read our full writeup [here](https://hackmd.io/s/SkUhP4fGX).
 
 ## Challenge files
 
